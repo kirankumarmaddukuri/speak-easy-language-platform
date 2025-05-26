@@ -36,8 +36,7 @@ Speak Easy is a full-stack language learning application built with the MERN sta
 ## Tech Stack 🛠
 
 ### Frontend
--HTML
--Javascript
+
 - React.js (v18)
 - CSS,Material-UI (MUI) for UI components
 - Axios for API calls
