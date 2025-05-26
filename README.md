@@ -70,7 +70,7 @@ Speak Easy is a full-stack language learning application built with the MERN sta
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/speak-easy-final.git
+git clone https://github.com/kirankumarmaddukuri/speak-easy-language-platform.git
 cd speak-easy-final
 ```
 
