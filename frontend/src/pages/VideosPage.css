@@ -1,0 +1,127 @@
+.videos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.videos .btn {
+  background: linear-gradient(145deg, #2196f3, #1976d2);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.videos .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+}
+
+.videos-info {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.videos-info p {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.videos-info span {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.videos-level {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.videos-level:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.videos-level h4 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.videos-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.videos-list > div {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.videos-list > div:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateX(5px);
+}
+
+.videos-list > div.completed {
+  background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+}
+
+.videos-list h5 {
+  margin: 0;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.videos-list input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.videos .icon {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.videos .btn .icon {
+  font-size: 1.1em;
+}
+
+.videos .videos-info .icon {
+  color: #2196f3;
+  font-size: 1.2em;
+}
+
+.videos .videos-level h4 .icon {
+  color: #ff9800;
+}
+
+.videos .videos-list h5 .icon.completed {
+  color: #4caf50;
+}
+
+.videos .btn .icon {
+  color: #fff;
+} 
